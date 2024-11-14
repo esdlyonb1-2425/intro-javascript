@@ -57,9 +57,38 @@ let totalDePommes = nombreDePommes +autreNombreDePommes
 console.log("Le total de pommes : "+totalDePommes)
 
 let variableDeLuc = "luc"
+let variableDeMichel = "michel"
 console.log(variableDeLuc[1])
 
 let unAutreMot = "champignon"
 //à partir de cette variable-la, créer une autre variable
 //contenant les 5 premieres lettres de la premiere
 
+let soupeLegumes = ["poireau", "carotte", "navet"]
+
+let soupe = {
+    nom : "Soupe de legumes",
+    ingredients: ["courgettes", "patates", "navets"],
+    temperature : 25
+}
+
+console.log(soupe)
+
+console.log(variableDeLuc.length)
+console.log(variableDeMichel.length)
+
+let isLonger = variableDeLuc.length > variableDeMichel.length
+let prenomLePlusLong = "prenom le plus long"
+
+let isBig = true
+
+
+
+if(isLonger){
+    prenomLePlusLong = "luc"
+}else{
+     prenomLePlusLong = "michel"
+}
+
+
+console.log("le plus long prenom c'est : "+ prenomLePlusLong)
